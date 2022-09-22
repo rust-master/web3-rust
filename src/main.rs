@@ -17,3 +17,12 @@ async fn main() -> web3::Result<()> {
 
     Ok(())
 }
+
+
+#[cfg(test)]
+mod tests {
+    #[test]
+    fn it_works() {
+        assert_eq!(2+2, 4);
+    }
+}
